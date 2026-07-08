@@ -1,0 +1,35 @@
+model {
+  file: "model.sdf"
+}
+name: "Down_To_Earth_Orchid_Pot_Ceramic_Lime"
+description: "Down To Earth Orchid Pot, Ceramic, Lime"
+version: 1
+authors {
+  name: "Google"
+  email: "scanned-objects@google.com"
+}
+legal {
+  copyright: "Copyright 2020 Google LLC."
+  license: "Creative Commons Attribution 4.0 International"
+}
+annotations {
+  key: "brand"
+  value: "Down To Earth"
+}
+annotations {
+  key: "gtin"
+  value: "00714360690015"
+}
+annotations {
+  key: "sku"
+  value: "00714360690015"
+}
+compatibilities {
+  name: "Gazebo"
+  version {
+    major: 11
+  }
+}
+categories {
+  first: "Consumer Goods"
+}
